@@ -13,7 +13,7 @@ function displayOut(success, message) {
 	if (success) {
 		reqInvite.remove();
 		$('.out-message h2').show();
-		$('.invite-message p').text('Thanks! You have been added to the list!');
+		$('.invite-message p').text('Thanks, you have been added to the list!');
 	} else {
 		$('.invite-message p').text('Error! ' + message);
 	}
