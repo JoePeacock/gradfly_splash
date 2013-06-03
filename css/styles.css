@@ -106,8 +106,8 @@ a:hover {
 
 .request-form input {
 	font-size: 2em;
-	color:#f7f7f7;
-	border: 3px solid #f7f7f7;
+	color:#93B964;
+	border: 3px solid #93B964;
 	padding:33px 30px;
 	border-radius: 50px;
 	display: block;
@@ -343,3 +343,6 @@ section p {
 	color:#f7f7f7;
 }
 
+.launch {
+	
+}
