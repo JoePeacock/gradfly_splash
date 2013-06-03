@@ -106,8 +106,8 @@ a:hover {
 
 .request-form input {
 	font-size: 2em;
-	color:#93B964;
-	border: 3px solid #93B964;
+	color:#f89406;
+	border: 3px solid #f89406;
 	padding:33px 30px;
 	border-radius: 50px;
 	display: block;
@@ -277,19 +277,25 @@ section p {
 
 }
 
-.btn {
+.btn-success {
 	color:#333;
-	text-shadow:none;
 	-webkit-transition:color 0.4s;
 	-moz-transition:color 0.4s;
 	-o-transition:color 0.4s;
 	-ms-transition:color 0.4s;
 	transition:color 0.4s;
 	font-weight: bold;
+	background-color: #93B964;
+	background-image: -webkit-linear-gradient(to bottom, #93B964, #93B964);
+	background-image: -moz-linear-gradient(to bottom, #93B964, #93B964);
+	background-image: -o-linear-gradient(to bottom, #93B964, #93B964);
+	background-image: -ms-linear-gradient(to bottom, #93B964, #93B964);
+	background-image: linear-gradient(to bottom, #93B964, #93B964);
 }
 
-.btn:hover {
-	color:#333;
+.btn-success:hover {
+	color:#000;
+	background-color: #93B964;
 }
 
 /* Section Colors
@@ -344,5 +350,5 @@ section p {
 }
 
 .launch {
-	
+
 }
